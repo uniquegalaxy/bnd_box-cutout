@@ -59,10 +59,10 @@ def read_xml(xml):
 if __name__ == '__main__':
 
     #file path
-    img_path = r"D:\project\pythonProject\data_augment\cutout\origin\img/"
-    xml_path = r"D:\project\pythonProject\data_augment\cutout\origin\xml/"
-    save_path_img = r"D:\project\pythonProject\data_augment\cutout\result\img/"
-    save_path_xml = r"D:\project\pythonProject\data_augment\cutout\result\xml/"
+    img_path = r"origin/img/"
+    xml_path = r"origin/xml/"
+    save_path_img = r"result/img/"
+    save_path_xml = r"result/xml/"
 
     img_dic = load_dir(img_path)
     xml_dic = load_dir(xml_path)

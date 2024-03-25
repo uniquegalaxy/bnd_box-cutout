@@ -1,7 +1,7 @@
 ## Cutout data augment
 
 ### requirement
-  pip install numpy
+    pip install numpy
 
 
 
